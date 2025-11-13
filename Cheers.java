@@ -12,11 +12,10 @@ public class Cheers {
             String word = args[0];
             int repeat = Integer.parseInt(args[1]);
             String an_letters = "AEFHILMNORSX";
-            String a_an = "an";
             char letter ;
 
             for(int i=0; i< word.length(); i++){
-                letter = word.charAt(i);
+                letter = word.toUpperCase().charAt(i);
                 if (an_letters.indexOf(letter) != -1) {
                         System.out.println("Give me " + "an" + " " + letter + ": " + letter  + "!" );
                 }

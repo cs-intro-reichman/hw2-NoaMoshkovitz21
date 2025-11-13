@@ -42,6 +42,6 @@ public class Collatz {
 			reach_one = false ;
 		}
 
-		System.err.println("Every one of the first " + seed + " hailstone sequences reached 1");
+		System.err.println("Every one of the first " + seed + " hailstone sequences reached 1.");
 	}
 }
